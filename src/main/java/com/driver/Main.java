@@ -5,6 +5,7 @@ public class Main {
         RWOnly obj = new RWOnly();
         obj.setName("gtk");
         String res  = obj.getName();
+        System.out.println(res);
     }
 
 }
